@@ -26,7 +26,7 @@
 |     UDMDET     | ResNet50 |  12   | 46.1 |      73.2       |      49.7       |      21.3      |      30.4      |      48.5      | [log](https://github.com/user-attachments/files/19787333/UMDET.log) / [checkpoint]() |
 | Boosting R-CNN | ResNet50 |  12   | 51.6 |      75.2       |      67.4       |      29.7      |      35.0      |      54.1      | [log](https://github.com/user-attachments/files/19787321/Boosting-R-CNN.log) / [checkpoint]() |
 |    TransUTD    | ResNet50 |  12   | 58.9 |      82.8       |      66.2       |      35.3      |      37.2      |      62.7      | [log](https://github.com/user-attachments/files/19787371/TranUTD.txt) / [config]() / [checkpoint]() |
-|   TransUTD*    | ResNet50 |  12   | 59.4 |      83.3       |      66.5       |      35.4      |      37.2      |      63.0      | [log](https://github.com/user-attachments/files/19787372/TransUTD-pre.txt) / [config]() / [checkpoint]() |
+|   TransUTD*    | ResNet50 |  12   | 60.6 |      83.8       |      67.8       |      37.9      |      39.0      |      64.3      | [log](https://github.com/user-attachments/files/19787372/TransUTD-pre.txt) / [config]() / [checkpoint]() |
 
 **Notes**:
 
