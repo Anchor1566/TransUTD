@@ -1,5 +1,5 @@
 
-<h2 align="center">TransVOD: Underwater Cross-Domain Collaborative Spatial-Temporal Transformer Detector</h2>
+**<h2 align="center">TransVOD: Underwater Cross-Domain Collaborative Spatial-Temporal Transformer Detector</h2>**
 
 <details>   <summary>Fig</summary>   <div style="display: flex; justify-content: space-between;">     <img src="https://github.com/Anchor1566/TransUTD/blob/main/images/fig8a.png" alt="fig1" style="width: 48%;">     <img src="https://github.com/Anchor1566/TransUTD/blob/main/images/fig8b.png" alt="fig2" style="width: 48%;">   </div> </details>
 
