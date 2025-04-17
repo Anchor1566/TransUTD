@@ -2,14 +2,6 @@
 
 <details>   <summary>Fig</summary>   <div style="display: flex; justify-content: space-between;">     <img src="https://github.com/Anchor1566/TransUTD/blob/main/images/fig8a.png" alt="fig1" style="width: 48%;">     <img src="https://github.com/Anchor1566/TransUTD/blob/main/images/fig8b.png" alt="fig2" style="width: 48%;">   </div> </details>
 
-# UVID
-
-**UVID** is a specialized underwater video object detection dataset created exclusively for research purposes. As the first dataset dedicated to this domain, UVID comprises 46,962 annotated frames and 191,699 object instances, representing five prominent underwater species: holothurians, urchins, scallops, starfish, and fish. The dataset is built upon the [KIS_MVK](https://github.com/quangtrungtruong/KIS_MVK) framework and includes underwater videos sourced from the internet, with special thanks to the contributors, as well as real-world underwater footage captured by our divers.
-
-In the UVID dataset, each frame is annotated with a `transform` field, indicating whether the frame represents a motion transform compared to the previous one. This annotation uses the values `1` for motioned frames and `0` for unchanged frames. This annotation strategy leverages local temporal consistency.
-
-![UVID](https://github.com/Anchor1566/TransUTD/blob/main/images/fig3.png "UVID")
-
 # Main Results
 
 ## DUO
@@ -44,6 +36,14 @@ In the UVID dataset, each frame is annotated with a `transform` field, indicatin
 **Difficult Conditions**
 
 ![difficult](https://github.com/Anchor1566/TransUTD/blob/main/images/fig11.jpg "difficult")
+
+# UVID
+
+**UVID** is a specialized underwater video object detection dataset created exclusively for research purposes. As the first dataset dedicated to this domain, UVID comprises 46,962 annotated frames and 191,699 object instances, representing five prominent underwater species: holothurians, urchins, scallops, starfish, and fish. The dataset is built upon the [KIS_MVK](https://github.com/quangtrungtruong/KIS_MVK) framework and includes underwater videos sourced from the internet, with special thanks to the contributors, as well as real-world underwater footage captured by our divers.
+
+In the UVID dataset, each frame is annotated with a `transform` field, indicating whether the frame represents a motion transform compared to the previous one. This annotation uses the values `1` for motioned frames and `0` for unchanged frames. This annotation strategy leverages local temporal consistency.
+
+![UVID](https://github.com/Anchor1566/TransUTD/blob/main/images/fig3.png "UVID")
 
 # Installtion
 
