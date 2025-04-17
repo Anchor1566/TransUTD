@@ -8,7 +8,7 @@
 
 In the UVID dataset, each frame is annotated with a `transform` field, indicating whether the frame represents a motion transform compared to the previous one. This annotation uses the values `1` for motioned frames and `0` for unchanged frames. This annotation strategy leverages local temporal consistency.
 
-![UVID](https://github.com/Anchor1566/TransUTD/blob/main/images/3_1.png "UVID")
+![UVID](https://github.com/Anchor1566/TransUTD/blob/main/images/fig3.png "UVID")
 
 # Main Results
 
