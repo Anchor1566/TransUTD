@@ -54,4 +54,4 @@ The codebase is built on top of [RT-DETR](https://github.com/lyuwenyu/RT-DETR).
 
 ## TODO
 
-code will be available soon.😊
+The code and dataset will be released after the publication of associated paper.😊
