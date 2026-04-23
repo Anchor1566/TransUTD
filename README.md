@@ -1,6 +1,10 @@
 
 **<h2 align="center">TransVOD: Underwater Cross-Domain Collaborative Spatial-Temporal Transformer Detector</h2>**
 
+**TransUTD** is a novel end-to-end Transformer-based framework for underwater video object detection that reformulates feature degradation in turbid aquatic environments as a temporal contextual modeling problem. 
+
+Distinct from surrogate expansions of the discriminative feature space achieved through image enhancement or heuristic modules, temporal context offers latent discriminative features while preserving natural scene fidelity. By synergistically leveraging semantic consistency and geometric coherence across video frames, TransUTD learns complementary spatio-temporal representations to compensate for feature attenuation in degraded keyframes.
+
  <div style="margin: 10px 0; text-align: center;">
     <img src="https://github.com/Anchor1566/TransUTD/blob/main/images/fig4.png" alt="architecture" style="width: 100%; max-width: 800px;">
   </div>
