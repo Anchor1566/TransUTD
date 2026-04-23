@@ -2,12 +2,29 @@
 **<h2 align="center">TransUTD: Underwater cross-domain collaborative spatial-temporal transformer detector</h2>**
 
 <div align="center">
-[![License](https://img.shields.io/github/license/Anchor1566/TransUTD)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/Anchor1566/TransUTD)](https://github.com/Anchor1566/TransUTD/stargazers)
-[![Issues](https://img.shields.io/github/issues/Anchor1566/TransUTD)](https://github.com/Anchor1566/TransUTD/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/Anchor1566/TransUTD)](https://github.com/Anchor1566/TransUTD/pulls)
-[![Paper](https://img.shields.io/badge/Paper-ScienceDirect-orange)](https://www.sciencedirect.com/science/article/abs/pii/S089360802600167X)
-[![Contact](https://img.shields.io/badge/contact-email-blue)](mailto:202317527@mail.sdu.edu.cn)
+<a href="LICENSE">
+<img src="https://img.shields.io/github/license/Anchor1566/TransUTD">
+</a>
+
+<a href="https://github.com/Anchor1566/TransUTD/stargazers">
+<img src="https://img.shields.io/github/stars/Anchor1566/TransUTD">
+</a>
+
+<a href="https://github.com/Anchor1566/TransUTD/issues">
+<img src="https://img.shields.io/github/issues/Anchor1566/TransUTD">
+</a>
+
+<a href="https://github.com/Anchor1566/TransUTD/pulls">
+<img src="https://img.shields.io/github/issues-pr/Anchor1566/TransUTD">
+</a>
+
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S089360802600167X">
+<img src="https://img.shields.io/badge/Paper-ScienceDirect-orange">
+</a>
+
+<a href="mailto:202317527@mail.sdu.edu.cn">
+<img src="https://img.shields.io/badge/contact-email-blue">
+</a>
 </div>
 <hr>
 
