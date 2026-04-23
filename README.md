@@ -3,7 +3,7 @@
 
 <div align="center">
 <a href="LICENSE">
-<img src="https://img.shields.io/github/license/Anchor1566/TransUTD">
+<img src="https://img.shields.io/github/license/Anchor1566/TransUTD?v=1">
 </a>
 
 <a href="https://github.com/Anchor1566/TransUTD/stargazers">
