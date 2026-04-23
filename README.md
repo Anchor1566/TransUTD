@@ -58,7 +58,7 @@ Distinct from surrogate expansions of the discriminative feature space achieved 
 
 |  Model   | Backbone | Epoch | mAP  | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> |                           Download                           |
 | :------: | :------: | :---: | :--: | :-------------: | :-------------: | :------------: | :------------: | :------------: | :----------------------------------------------------------: |
-| TransUTD | ResNet50 |  12   | 66.0 |      86.0       |      73.9       |      55.9      |      66.7      |      64.0      | [log](https://github.com/user-attachments/files/19787301/transutd.txt) |
+| TransUTD | ResNet50 |  12   | 66.0 |      86.0       |      73.9       |      55.9      |      66.7      |      64.0      | [log](https://github.com/user-attachments/files/19787301/transutd.txt) / [checkpoint](https://drive.google.com/file/d/1dYH-wkKVIg_A0n_Jcyi9fBzdtOA-LLqZ/view?usp=drive_link) |
 | TransUTD | ResNet50 |  36   | 70.3 |      88.8       |      78.3       |      56.9      |      71.6      |      69.6      | [log](https://github.com/user-attachments/files/19787307/transutd-duo3x.txt) / [checkpoint](https://drive.google.com/file/d/1VDuWZLIld39mvqE-eZBL56PccNrn00zW/view?usp=drive_link) |
 
 ### UVID
