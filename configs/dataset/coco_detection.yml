@@ -1,0 +1,82 @@
+task: detection
+
+evaluator:
+  type: CocoEvaluator
+  iou_types: ['bbox', ]
+
+multi_evaluator:
+  type: CocoEvaluator
+  iou_types: ['bbox', ]
+
+num_classes: 31
+remap_mscoco_category: False
+
+
+train_dataloader: 
+  type: DataLoader
+  dataset: 
+    type: CocoDetection
+    img_folder: 
+    ann_file: 
+    return_masks: False
+    transforms:
+      type: Compose
+      ops: ~
+  shuffle: True
+  num_workers: 4
+  drop_last: True 
+  collate_fn:
+    type: BatchImageCollateFuncion
+
+
+val_dataloader:
+  type: DataLoader
+  dataset: 
+    type: CocoDetection
+    img_folder: 
+    ann_file: 
+    return_masks: False
+    transforms:
+      type: Compose
+      ops: ~ 
+  shuffle: False
+  num_workers: 4
+  drop_last: False
+  collate_fn:
+    type: BatchImageCollateFuncion
+
+
+train_multi_dataloader: 
+  type: DataLoader
+  dataset: 
+    num_refs: 3
+    type: CocoVideoDetection
+    img_folder: /root/data/ImageNetVID/imagenet2015/ILSVRC/Data/VID
+    ann_file: /root/data/ImageNetVID/imagenet2015/ILSVRC/Annotations/imagenet_vid_train_joint_30.json
+    return_masks: False
+    transforms:
+      type: Compose
+      ops: ~
+  shuffle: True
+  num_workers: 4
+  drop_last: True 
+  collate_fn:
+    type: BatchImageCollateFuncion
+
+
+val_multi_dataloader:
+  type: DataLoader
+  dataset: 
+    num_refs: 3
+    type: CocoVideoDetection
+    img_folder: /root/data/ImageNetVID/imagenet2015/ILSVRC/Data/VID
+    ann_file: /root/data/ImageNetVID/imagenet2015/ILSVRC/Annotations/imagenet_vid_val.json
+    return_masks: False
+    transforms:
+      type: Compose
+      ops: ~ 
+  shuffle: False
+  num_workers: 4
+  drop_last: True
+  collate_fn:
+    type: BatchImageCollateFuncion
