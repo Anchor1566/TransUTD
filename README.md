@@ -22,9 +22,6 @@
 <img src="https://img.shields.io/badge/Paper-ScienceDirect-orange">
 </a>
 
-<a href="mailto:202317527@mail.sdu.edu.cn">
-<img src="https://img.shields.io/badge/contact-email-blue">
-</a>
 </div>
 <hr>
 
