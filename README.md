@@ -117,7 +117,7 @@ code_root/
     └── imagenet_vid_val.json
 ```
 1. The ILSVRC2015 DET and ILSVRC2015 VID datasets can be downloaded from [here](https://image-net.org/challenges/LSVRC/2015/2015-downloads). After downloading, please convert the annotations to JSON format. The directory structure and conversion procedure can be implemented by following the guidelines provided in [TransVOD](https://github.com/SJTU-LuHe/TransVOD).
-2. The UVID dataset can be downloaded from [here](https://drive.google.com/drive/folders/1msCoyScWxKkfGScDLu0EgurbeuWn_VUT?usp=drive_link).
+2. The UVID dataset can be downloaded from [here](https://drive.google.com/drive/folders/1msCoyScWxKkfGScDLu0EgurbeuWn_VUT?usp=drive_link). [Baidu Cloud](https://pan.baidu.com/s/1pTAu0O3yfgpBKeGE9g7pEw?pwd=8cv4)  提取码: 8cv4
 
 ### Training
 
